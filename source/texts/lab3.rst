@@ -1,5 +1,5 @@
 ********************************************************
-Lab 1, PID control of water tank named LM900
+Lab 3, PID control, with feed forward, of pendulum
 ********************************************************
 
 Time and place
@@ -8,40 +8,38 @@ Time and place
 
 Equipment
 ==============================================
-- LM900, the red model at Hammer with two water tanks, a manual valve between the tanks and some sensors.
-- Beckhoff CX and IO`s
-- Some device with a browser, connected to lab WiFi
-- If you need to debug, or you`re just interested, take a look thru the IO list and System Control Diagram
-  on `GitHub <https://github.com/MOJOliciousFTW/HVLlab/tree/master/LM900/>`_
+- Matlab and Simulink
+- Handout model in .slx file
 
 
 
 Description
 ==============================================
-In this lab you will tune a PID to control the water level in a tank. Software is done, you will do the tuning.
-
-Your PID will be given a score, less is better.
-Take a screen dump of your score and PID gains, send it to me, and receive a thumbs up for completing the lab.
+In this lab you will tune a PID to control the position of a simulated pendulum. Software is done, you will do the
+tuning.
 
 
-The LM900 model can be a fun, practical challenge for three reasons
 
-    #. The manual valve is an un-measured disturbance (but you can estimate it)
-    #. The outflow of tank 1 is dependant of the square root of its water level (non-linear, can be compensated for)
-    #. The pump should not run dry, and tank 1 should not overflow (interlocks are in place to prevent this)
+The pendulum model can be a fun challenge for three reasons
+
+    #. It`s non-linear, the torque from gravity is dependant on the pendulum position.
+    #. It`s in every single control theory book - it is fundamental in understanding reg tek concepts.
 
 
 The overall workflow for you to do is
 
-    #. Turn on stuff
-    #. Get to the user interface thru a browser
+    #. Open the Simulink model (.slx)
+    #. Run it
     #. Have fun
-    #. Tune the PID manually (feel free to use the auto tuner, but do some additional tuning)
-    #. Get a score
-    #. Win
+    #. Tune the PID manually
+    #. Write a feed forward term to compensate for gravity
+    #. Analyse work done by FF and PID
+    #. Learn
 
 Steps
 ==============================================
+
+WIP!
 
  #. Connect to the local lab WiFi with your device (PC, smartphone, tablet) and go to address_of_ui. If all is well,
     go to the next step, else:

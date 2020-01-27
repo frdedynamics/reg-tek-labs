@@ -1,5 +1,5 @@
 ********************************************************
-Lab 1, PID control of water tank named LM900
+Lab 2, PID control of motor and auto tuning
 ********************************************************
 
 Time and place
@@ -8,27 +8,25 @@ Time and place
 
 Equipment
 ==============================================
-- LM900, the red model at Hammer with two water tanks, a manual valve between the tanks and some sensors.
+- Motor, the red model at Hammer with a motor and variable load.
 - Beckhoff CX and IO`s
 - Some device with a browser, connected to lab WiFi
-- If you need to debug, or you`re just interested, take a look thru the IO list and System Control Diagram
-  on `GitHub <https://github.com/MOJOliciousFTW/HVLlab/tree/master/LM900/>`_
 
 
 
 Description
 ==============================================
-In this lab you will tune a PID to control the water level in a tank. Software is done, you will do the tuning.
+In this lab you will tune a PID to control the speed of a motor. Software is done, you will do the tuning.
 
 Your PID will be given a score, less is better.
 Take a screen dump of your score and PID gains, send it to me, and receive a thumbs up for completing the lab.
 
 
-The LM900 model can be a fun, practical challenge for three reasons
+The motor model can be a fun, practical challenge for three reasons
 
-    #. The manual valve is an un-measured disturbance (but you can estimate it)
-    #. The outflow of tank 1 is dependant of the square root of its water level (non-linear, can be compensated for)
-    #. The pump should not run dry, and tank 1 should not overflow (interlocks are in place to prevent this)
+    #. The varying load is an un-measured disturbance (but you can estimate it)
+    #. This is oldie goldie motor varies from day to day. It`s time varying.
+    #. It`s comparable to cruise control subject to varying uphills.
 
 
 The overall workflow for you to do is
@@ -36,7 +34,7 @@ The overall workflow for you to do is
     #. Turn on stuff
     #. Get to the user interface thru a browser
     #. Have fun
-    #. Tune the PID manually (feel free to use the auto tuner, but do some additional tuning)
+    #. Tune the PID manually, also use the auto tuner.
     #. Get a score
     #. Win
 
@@ -46,10 +44,12 @@ Steps
  #. Connect to the local lab WiFi with your device (PC, smartphone, tablet) and go to address_of_ui. If all is well,
     go to the next step, else:
 
-    #. Check that the LM900 IO is connected to Beckhoff IO modules, see io_list
+    #. Check that the motor IO is connected to Beckhoff IO modules, see io_list
     #. Check that IO`s are connected to Beckhoff CX.
-    #. Check power supply to LM900, IO, CX, router. Turn these on.
+    #. Check power supply to motor, IO, CX, router. Turn these on.
     #. Wait for green lights. Else, call for help.
+
+WIP!
 
  #. The LIC01 (level indicator and control) CA is a NORSOK I-005 (IEC PAS 63131) template for control of analogue
     signals (PID). Select manual, internal mode, play around with the manual output.

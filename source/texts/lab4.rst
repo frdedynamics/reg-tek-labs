@@ -1,19 +1,17 @@
 ********************************************************
-Lab 1, PID control of water tank named LM900
+Lab 4, Pole placement control of helicopter model
 ********************************************************
 
 Time and place
 ==============================================
-- Room Hammer at TBD
+- HVL Robotics lab at TBD
 
 Equipment
 ==============================================
-- LM900, the red model at Hammer with two water tanks, a manual valve between the tanks and some sensors.
-- Beckhoff CX and IO`s
-- Some device with a browser, connected to lab WiFi
-- If you need to debug, or you`re just interested, take a look thru the IO list and System Control Diagram
-  on `GitHub <https://github.com/MOJOliciousFTW/HVLlab/tree/master/LM900/>`_
+- Helicopter model with to propellers in "helicopter" configuration (not "duo copter")
+- Lab PC
 
+WIP!
 
 
 Description
