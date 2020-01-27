@@ -1,0 +1,8 @@
+*~
+build/
+devel/
+doc/
+_build/
+*.bat
+.vscode
+.idea
