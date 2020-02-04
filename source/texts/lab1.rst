@@ -4,7 +4,8 @@ Lab 1, PID control of water tank named LM900
 
 Time and place
 ==============================================
-- Room Hammer at TBD
+- HVL Robotics Lab, Øyrane_ 12, 6800 Førde, 2. floor (under Reodorklubben).
+- Wednesdays 12-14.
 
 Equipment
 ==============================================
@@ -43,22 +44,24 @@ The overall workflow for you to do is
 Steps
 ==============================================
 
- #. Connect to the local lab WiFi with your device (PC, smartphone, tablet) and go to address_of_ui. If all is well,
+ #. Connect to the local lab WiFi with your device (PC, smartphone, tablet) and go to http://172.31.1.97/Tc3PlcHmiWeb/Port_851/Visu/webvisu.htm. If all is well,
     go to the next step, else:
 
-    #. Check that the LM900 IO is connected to Beckhoff IO modules, see io_list
+    #. Check that the LM900 IO is connected to Beckhoff IO modules
     #. Check that IO`s are connected to Beckhoff CX.
     #. Check power supply to LM900, IO, CX, router. Turn these on.
     #. Wait for green lights. Else, call for help.
+    #. Connect compressor, start compressor, wait for compressor to fill up, turn off compressor.
+    #. Open and let the bubbles out of the purge meter using the black knob on the glass thingy on the LM900, then close again.
 
  #. The LIC01 (level indicator and control) CA is a NORSOK I-005 (IEC PAS 63131) template for control of analogue
-    signals (PID). Select manual, internal mode, play around with the manual output.
+    signals (PID). Select manual, internal mode, play around with the manual output Y.
 
     #. Open the manual valve completely
-    #. Set your manual output to something that gives a steady water level (maybe 50%).
+    #. Set your manual output Y to something that gives a steady water level YX (maybe 50%).
     #. What is the resulting level? What is the ratio between manual output and resulting water level?
 
- #. Set your internal mode gains. This PID is in standard form, so I and D are in units of seconds. Maybe try Kp,Ti,Td as
+ #. Set your internal mode gains from the options pane on the LIC01. This PID is in standard form, so I and D are in units of seconds. Maybe try Kp,Ti,Td as
     1,10,0.
 
  #. Try your PID
@@ -77,3 +80,6 @@ Steps
      #. Happy? Done. Else, keep tuning, ask questions, take the opportunity to understand control theory.
 
 Reg tek rulez!
+
+
+.. _Øyrane: https://www.google.com/maps/place/HVL+Robotics+Lab/@61.4590375,5.8326453,17z/data=!3m1!4b1!4m5!3m4!1s0x4616333d5f3d88b5:0x2025abbba16257dd!8m2!3d61.459035!4d5.8348393
