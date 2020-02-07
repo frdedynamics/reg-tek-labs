@@ -9,7 +9,7 @@ Time and place
 
 Equipment
 ==============================================
-- LM900, the red model at Hammer with two water tanks, a manual valve between the tanks and some sensors.
+- LM900, the red model with two water tanks, a manual valve between the tanks and some sensors.
 - Beckhoff CX and IO`s
 - Some device with a browser, connected to lab WiFi
 - If you need to debug, or you`re just interested, take a look thru the IO list and System Control Diagram

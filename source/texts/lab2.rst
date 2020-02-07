@@ -9,7 +9,7 @@ Time and place
 
 Equipment
 ==============================================
-- Motor, the red model at Hammer with a motor and variable load.
+- Motor, the red model with a motor and variable load.
 - Beckhoff CX and IO`s
 - Some device with a browser, connected to lab WiFi
 - If you need to debug, or you`re just interested, take a look thru the IO list
