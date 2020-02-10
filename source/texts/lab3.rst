@@ -10,7 +10,7 @@ Time and place
 Equipment
 ==============================================
 - Matlab and Simulink
-- Handout model in .slx file
+- single_pendulum.slx Simulink file from `GitHub <https://github.com/frdedynamics/reg-tek-labs/tree/master/code/>`_
 
 
 
@@ -18,6 +18,8 @@ Description
 ==============================================
 In this lab you will add a feed forward term to a PID and tune a PID to control the position of a simulated pendulum.
 
+Your PID will be given a score, less is better.
+Take a screen dump of your score and PID gains, send it to me, and receive a thumbs up for completing the lab.
 
 The pendulum model can be a fun challenge for three reasons
 
