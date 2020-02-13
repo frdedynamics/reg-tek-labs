@@ -46,7 +46,7 @@ The overall workflow for you to do is
 Steps
 ==============================================
 
- #. Connect to the local lab WiFi with your device (PC, smartphone, tablet) and go to http://172.31.1.97/Tc3PlcHmiWeb/Port_851/Visu/webvisu.htm.. If all is well,
+ #. Connect to the local lab WiFi with your device (PC, smartphone, tablet) and go to http://172.31.1.142/Tc3PlcHmiWeb/Port_851/Visu/webvisu.htm.. If all is well,
     go to the next step, else:
 
     #. Check that the motor IO is connected to Beckhoff IO modules, see io_list
