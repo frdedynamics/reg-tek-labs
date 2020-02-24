@@ -15,6 +15,7 @@ Equipment
 ==============================================
 - Helicopter model from Quanser with two propellers in "helicopter" configuration (not "duo copter")
 - Lab PC, specific for the helicopter. This has Matlab, Simulink, all necessary licenses and other software.
+- The folder "Lab 4 RegTek" on the lab pc desktop.
 
 
 
@@ -39,42 +40,38 @@ The overall workflow for you to do is
     #. Turn on stuff
     #. Open Matlab, run a init script, then a Simulink model. Get familiar.
     #. Tune the PID manually
-    #. Calculate PP gains
+    #. Tune some PP gains/poles
     #. Get a score
     #. Win
 
 Steps
 ==============================================
 
- #. Turn on the helicopter first, then the lab PC. Don't ask why.. I don't know why.
- #. Open Matlab, run some_init_script.m. If all is well, go to the next step, else:
+ #. Open the desktop folder Lab 4 Reg Tek.
+ #. Open Oppgave_1_pid.m (Matlab R2015b should open)
 
-    #. Check that the helicopter is connected to the lab pc via usb.
-    #. Check power supply for helicopter, lab pc and screen.
-    #. Check screen, keyboard and mouse connections.
-    #. Wait for green lights. Else, call for help.
+    #. Run it
 
- #. Open some_simulink_mdl.slx
+ #. Open Oppgave_1_pid_simulink.slx
 
-    #. Play around with the pitch and yaw power sliders
+    #. Hit the Build button, blue dotted top right in simulink
+    #. Wait for build to finish
+    #. Find the Connect button, close to the play button, click it.
+    #. Press play
+    #. Helicopter should do some motions for 55 seconds and you get a score
+    #. Click Connect button again to disconnect if not already disconnected
 
- #. Open some some_simulink_mdl_with_pid.slx
+ #. Change your gains in the .m file and repeat the steps above (run, build, connect, play) until you`re happy
 
-    #. Play around with pitch and yaw reference sliders
+If all is well, repeat for Oppgave_2_polplassering.m and Oppgave_2_polplassering_simulink.slx, else:
 
- #. Calculate PP gains with help from HALP!
+    #. Disconnect power to the helicopter
+    #. Restart PC
+    #. Reconnect power to the helicopter
 
- #. Open some some_simulink_mdl_with_pp.slx
-
-    #. Play around with pitch and yaw reference sliders
-
- #. Try your PID and PP controller, get a score
-
-    #. Open some_prepared_simulink_test.slx
-    #. Use the selector to select PID or PP
-    #. Check your gains
-    #. Run model, take note of the score and gains.
-    #. Happy? Done. Else, keep tuning, ask questions, take the opportunity to understand control theory.
+P.S: There`s no user restrictions on the lab pc so it`s surely possible to f*** things up for everyone.
+Please don`t use the lab pc for anything else than lab 4 and specifically - only change your gains/poles in the
+assigned .m files.
 
 Reg tek rulez!
 
