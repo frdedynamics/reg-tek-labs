@@ -5,7 +5,7 @@ Lab 4, Pole placement control of helicopter model
 Time and place
 ==============================================
 - HVL Robotics Lab, Øyrane_ 12, 6800 Førde, 2. floor (under Reodorklubben).
-- Fridays 12-14.
+- Time: TBD.
 
 .. warning::
     - Don't put your fingers in the propellers. Don't!

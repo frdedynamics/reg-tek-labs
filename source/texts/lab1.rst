@@ -5,7 +5,7 @@ Lab 1, PID control of water tank named LM900
 Time and place
 ==============================================
 - HVL Robotics Lab, Øyrane_ 12, 6800 Førde, 2. floor (under Reodorklubben).
-- Fridays 12-14.
+- Time: TBD.
 
 Equipment
 ==============================================

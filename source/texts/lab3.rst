@@ -5,7 +5,7 @@ Lab 3, PID control, with feed forward, of pendulum
 Time and place
 ==============================================
 - HVL Robotics Lab, Øyrane_ 12, 6800 Førde, 2. floor (under Reodorklubben).
-- Fridays 12-14.
+- Time: TBD.
 
 Equipment
 ==============================================

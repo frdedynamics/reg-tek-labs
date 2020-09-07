@@ -5,7 +5,7 @@ Lab 2, PID control of motor and auto tuning
 Time and place
 ==============================================
 - HVL Robotics Lab, Øyrane_ 12, 6800 Førde, 2. floor (under Reodorklubben).
-- Fridays 12-14.
+- Time: TBD.
 
 Equipment
 ==============================================
